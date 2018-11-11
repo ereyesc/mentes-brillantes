@@ -1,0 +1,394 @@
+.main-cover{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 800px;
+    background: url('/assets/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.main-form{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  margin: 120px 100px 0 100px;
+}
+.main-form p strong{
+  color: #E5D918;
+}
+.main-form p:nth-child(1){
+  height: 92px;
+  width: 603px;
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55px;
+}
+.main-form p:nth-child(2){
+  margin-top: 40px;
+  height: 80px;
+  width: 570px;
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.main-form p:nth-child(3){
+  height: 80px;
+  width: 570px;
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.main-form input{
+  margin-top: 20px;
+  height: 44px;
+  width: 305px;
+  border: 1px solid #757575;
+  padding-left: 10px;
+  color: #0C0033;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 3px;
+  font-family: "Gotham Rounded";
+}
+.main-form span{
+  margin-top: 20px;
+  margin-left: 8px;
+  position: absolute;
+  height: 44px;
+  width: 257px;
+  border-radius: 5px;
+  background-color: #E5D918;
+}
+.main-form span:hover{
+  cursor: pointer;
+  background-color: #CCC000;
+}
+.main-form span a{
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.beneficios{
+  height: 680px;
+  width: 100%;
+}
+
+.slider{
+  margin:90px 0 90px 0;
+  background: gray;
+  height: 480px;
+}
+.info{
+  margin:90px 0 90px 0;
+  padding-left: 100px;
+}
+.info p{
+  height: 25px;
+  width: 160px;
+  color: #0C0033;
+  font-family: "Gotham Rounded";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.desktop{
+  margin-top: 26px;
+  height: 100px;
+  width: 500px;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.people{
+  margin-top: 26px;
+  height: 100px;
+  width: 500px;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.eval{
+  margin-top: 26px;
+  height: 100px;
+  width: 500px;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.desktop img{
+  width: 65px;
+  height: 60px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.people img{
+  width: 65px;
+  height: 60px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.eval img{
+  width: 65px;
+  height: 60px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.desktop div{
+  width: 370px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.people div{
+  width: 370px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.eval div{
+  width: 370px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.desktop p:nth-child(1){
+  width: 347px;
+  height: 18px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-bottom: 15px;
+}
+.desktop p:nth-child(2){
+  width: 370px;
+  height: 64px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+}
+.people p:nth-child(1){
+  width: 347px;
+  height: 18px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-bottom: 15px;
+}
+.people p:nth-child(2){
+  width: 370px;
+  height: 64px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+}
+.eval p:nth-child(1){
+  width: 347px;
+  height: 18px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-bottom: 15px;
+}
+.eval p:nth-child(2){
+  width: 370px;
+  height: 64px;
+  color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+}
+.testimonios{
+  height: 391px;
+  width: 100%;
+  background-color: #E5D918;
+}
+
+.formas-de-aprender{
+  height: 500px;
+  width: 100%;
+}
+.formas-de-aprender > p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  height: 25px;
+  width: 481px;
+  color: #0C0033;
+  font-family: "Gotham Rounded";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.formas-de-aprender .container{
+  height: 335px;
+  width: 100%;
+}
+.formas-de-aprender .container .tracks{
+  height: 281px;	width: 570px;	background-color: #FFFFFF;
+  margin-right: 20px;
+}
+
+.formas-de-aprender .container .tracks p:nth-child(1){
+  height: 25px;	width: 83px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 25px;	font-weight: 500;	line-height: 30px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.formas-de-aprender .container .tracks p:nth-child(2){
+  height: 18px;	width: 285px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.formas-de-aprender .container .tracks p:nth-child(3){
+  height: 62px;	width: 500px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 18px;
+  margin-left: 35px;
+  margin-top: 7px;
+}
+
+.formas-de-aprender .container .tracks span{
+  margin-left: 35px;
+  margin-top: 30px;
+  position: absolute;
+  height: 44px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #E5D918;
+}
+
+.formas-de-aprender .container .tracks span:hover{
+  cursor: pointer;
+  background-color: #CCC000;
+}
+
+.formas-de-aprender .container .tracks span a{
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.formas-de-aprender .container .libreria{
+  height: 281px;	width: 570px;	background-color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.formas-de-aprender .container .libreria p:nth-child(1){
+  height: 25px;	width: 83px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 25px;	font-weight: 500;	line-height: 30px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.formas-de-aprender .container .libreria p:nth-child(2){
+  height: 18px;	width: 285px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.formas-de-aprender .container .libreria p:nth-child(3){
+  height: 62px;	width: 500px;	color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 18px;
+  margin-left: 35px;
+  margin-top: 7px;
+}
+
+.formas-de-aprender .container .libreria span{
+  margin-left: 35px;
+  margin-top: 30px;
+  position: absolute;
+  height: 44px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #E5D918;
+}
+
+.formas-de-aprender .container .libreria span:hover{
+  cursor: pointer;
+  background-color: #CCC000;
+}
+
+.formas-de-aprender .container .libreria span a{
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.info-padres{
+  height: 391px;
+  width: 100%;
+  background-image: url(../../assets/info-padres.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 200px;
+}
+.info-padres-mb{
+  float: right;
+  height: 391px;
+  background: linear-gradient(91.66deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+}
+.info-padres-mb-form{
+  height: 250px;
+  width: 550px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.info-padres-mb-form p:nth-child(1){
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.info-padres-mb-form p:nth-child(2){
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 18px;	font-weight: 500;	line-height: 22px;
+  margin-bottom: 20px;
+}
+.info-padres-mb-form p:nth-child(3){
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 14px;	font-weight: 300;	line-height: 20px;
+  margin-bottom: 20px;
+}
+.info-padres-mb-form p:nth-child(4){
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 14px;	font-weight: 300;	line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.info-padres-mb-form span{
+  margin-top: 10px;
+  position: absolute;
+  height: 44px;
+  width: 371px;
+  border-radius: 5px;
+  background-color: #E5D918;
+}
+
+.info-padres-mb-form span:hover{
+  cursor: pointer;
+  background-color: #CCC000;
+}
+
+.info-padres-mb-form span a{
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+}
