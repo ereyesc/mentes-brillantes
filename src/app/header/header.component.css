@@ -1,0 +1,144 @@
+.header{
+    height: 80px;
+    background-color: #333333;;
+    margin: 0;
+}
+
+.nav{
+    height: 80px;
+    margin: 0;
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+
+.logo div{
+    display: inline-block;
+}
+
+.logo-icon{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 50%;
+}
+
+.logo-icon img{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: 12px;
+}
+
+.logo-name{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.logo-name a p{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.logo-name a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 17px;
+  }
+  
+  .logo-name a p:nth-child(2) {
+    color: #E5D918;
+  }
+
+.menu{
+    padding-top: 27px;
+    margin: 0 auto;
+    height: 50%;
+    width: 700px;
+}
+
+.menu li{
+display: inline;
+  height: 16px;
+  width: 44px;
+  color: #FFFFFF;
+  font-family: "Gotham Rounded";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-right: 5%;
+}
+
+.menu li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+#login{
+    cursor: pointer;
+    text-decoration: none;
+    color: #E5D918;
+}
+
+#login:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#logout{
+    cursor: pointer;
+    text-decoration: none;
+    color: #E5D918;
+}
+
+#logout:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #E5D918;
+}
+
+.menu span{
+    position: absolute;
+  height: 44px;
+  width: 145px;
+  top: 15px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+  background-color: #E5D918;
+}
+
+.menu span:hover{
+    cursor: pointer;
+    background-color: #CCC000;
+    color: white;
+  }
+  .menu span li{
+    font-size: 14px;
+    margin-right: 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 13px;
+  }

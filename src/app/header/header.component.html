@@ -1,0 +1,41 @@
+<div class='row-3 header'>
+  <div class='col-3 logo'>
+    <div class='logo-icon'>
+      <a href="/"><img src='assets/logo.png'></a>
+    </div>
+    <div class='logo-name'>
+      <a href="/">
+        <p>Mentes</p>
+        <p>Brillantes</p>
+      </a>
+
+    </div>
+  </div>
+  <div class='col-9 nav'>
+    <div class='menu'>
+      <div *ngIf="!currentUser">
+          <ul>
+              <li><a href='/'>Inicio</a></li>
+              <li><a href='/courses'>Cursos</a></li>
+              <li><a href='/informacion-padres'>Información Para Padres</a></li>
+              <li><a href='/planes'>Planes</a></li>
+              <li ><a id="login" (click)="login()">Entrar</a></li>
+              <span>
+                <li (click)="register()">Incribete gratis</li>
+              </span>
+            </ul>
+      </div>
+      <div *ngIf="currentUser">
+          <ul>
+              <li><a href='/'>Inicio</a></li>
+              <li><a href='/courses'>Cursos</a></li>
+              <li><a href='/informacion-padres'>Información Para Padres</a></li>
+              <li><a href='/dashboard'>Dashboard</a></li>
+              <span>
+                  <li (click)="logout()">Salir</li>
+                </span>
+            </ul>
+      </div>
+    </div>
+  </div>
+</div>

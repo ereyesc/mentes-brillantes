@@ -1,0 +1,249 @@
+.video-content{
+    height: 335px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 100px 0 100px;
+  }
+  .video-content .path{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    height: 30px;	border-radius: 5px;	background-color: #D8D8D8;
+    margin-top: 40px;
+  }
+  .video-content .video{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: gray;
+    height: 650px;
+    margin-top: 20px;
+  }
+  .video-content .submenu{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .video-content .submenu .anterior{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: white;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .video-content .submenu .anterior div{
+    display: inline-block;
+  }
+  .video-content .submenu .anterior .arrow-left{
+    height: 70px;
+    width: 70px;
+    background-color: #D8D8D8;
+    margin: 0;
+  }
+  .video-content .submenu .anterior .arrow-left img{
+    height: 70px;
+    width: 70px;
+  }
+  .video-content .submenu .anterior .anterior-info{
+      position: absolute;
+      height: 70px;
+      width: auto;
+  }
+  .video-content .submenu .anterior .anterior-info p{
+      color: #0C0033;	font-family: "Gotham Rounded";	font-size: 12px;	font-weight: 500;	line-height: 14px;
+      margin: 15px 0 0 15px;
+  }
+  .video-content .submenu .anterior .anterior-info img{
+      height: 20px;
+      width: 18px;
+      margin: 5px 0 0 15px;
+  }
+  .video-content .submenu .anterior .anterior-info label{
+      color: #333333;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 17px;
+  }
+  .video-content .submenu .siguiente{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    background-color: white;
+    height: 70px;
+    margin-left: 10px;
+  }
+  .video-content .submenu .siguiente div{
+    display: inline-block;
+  }
+  .video-content .submenu .siguiente .arrow-right{
+    height: 70px;
+    width: 70px;
+    background-color: #D8D8D8;
+    float: right;
+  }
+  .video-content .submenu .siguiente .arrow-right img{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .video-content .submenu .siguiente .siguiente-info{
+      position: absolute;
+      height: 70px;
+      width: auto;
+  }
+  .video-content .submenu .siguiente .siguiente-info p{
+      color: #0C0033;	font-family: "Gotham Rounded";	font-size: 12px;	font-weight: 500;	line-height: 14px;
+      margin: 15px 0 0 15px;
+  }
+  .video-content .submenu .siguiente .siguiente-info img{
+      height: 20px;
+      width: 18px;
+      margin: 5px 0 0 15px;
+  }
+  .video-content .submenu .siguiente .siguiente-info label{
+      color: #333333;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 17px;
+  }
+  .video-content .maestro-info{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: white;
+    height: 350px;
+    margin-top: 30px;
+  }
+  .video-content .maestro-info p:nth-child(1){
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 25px;	font-weight: 500;	line-height: 30px;
+    margin: 30px 0 0 25px;
+  }
+  .video-content .maestro-info p:nth-child(2){
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+    margin: 25px 0 0 25px;
+  }
+  .video-content .maestro-info p:nth-child(3){
+    width: 220px;
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+    margin: 20px 0 0 25px;
+  }
+  .video-content .comunidad-info{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: white;
+    height: 342px;
+    margin-top: -90px;
+    margin-bottom: 90px;
+  }
+  
+  .video-content .comunidad-info p:nth-child(1){
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 25px;	font-weight: 500;	line-height: 30px;
+    margin: 30px 0 0 25px;
+  }
+  .video-content .comunidad-info p:nth-child(2){
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: 500;	line-height: 22px;
+    margin: 25px 0 0 25px;
+  }
+  .video-content .comunidad-info p:nth-child(3){
+    width: 220px;
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+    margin: 20px 0 0 25px;
+  }
+  
+  .video-content .comunidad-info span{
+    margin-left: 25px;
+    margin-top: 20px;
+    position: absolute;
+    height: 44px;
+    width: 134px;
+    border-radius: 5px;
+    background-color: #E5D918;
+  }
+  
+  .video-content .comunidad-info span:hover{
+    cursor: pointer;
+    background-color: #CCC000;
+  }
+  
+  .video-content .comunidad-info span a{
+    color: #FFFFFF;
+    font-family: "Gotham Rounded";
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-left: 15px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .video-content .video-info{
+    grid-column-start: 4;
+    grid-column-end: 13;
+    background-color: white;
+    height: 461px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .video-content .video-info > p:nth-child(2){
+    color: #333333;	font-family: "Gotham Rounded";	font-size: 18px;	font-weight: bold;	line-height: 22px;
+    margin-left: 20px;
+    margin-top: 45px;
+  }
+  .video-content .video-info > p:nth-child(3){
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 16px;	font-weight: 500;	line-height: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .video-content .video-info > p:last-child{
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 20px;
+    margin-left: 20px;
+  }
+  .video-content .video-info ul{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .video-content .video-info li{
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 16px;
+    margin-top: 5px;
+    margin-left: 45px;
+  }
+  
+  .video-content .video-info .tags{
+    height: auto;
+    width: 100%;
+  }
+  .video-content .video-info .tags div{
+    display: inline-block;
+    height: 45px;	width: 122px;	border: 1px solid #F5A623;	border-radius: 35px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+  .video-content .video-info .tags div p{
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  #playlist{
+    grid-column-start: 4;
+    grid-column-end: 13;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  #playlist ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #0C0033;	font-family: "Gotham Rounded";	font-size: 14px;	font-weight: 300;	line-height: 16px;
+    background-color: white;
+  }
+
+  #playlist ul li{
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #playlist ul li.selected{
+    background-color: #dddddd;
+  }
+
+  #playlist ul li:hover{
+    background-color: #cce6ee;
+  }

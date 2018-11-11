@@ -1,0 +1,97 @@
+<app-header></app-header>
+<div class='video-content'>
+    <!---->
+    <div class="path">
+
+    </div>
+    <div class="video">
+        <vg-player (onPlayerReady)="onPlayerReady($event)">
+            <vg-controls>
+                <vg-play-pause></vg-play-pause>
+                <vg-playback-button></vg-playback-button>
+        
+                <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+        
+                <vg-scrub-bar>
+                    <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+                    <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+                </vg-scrub-bar>
+        
+                <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+        
+                <vg-mute></vg-mute>
+                <vg-volume></vg-volume>
+        
+                <vg-fullscreen></vg-fullscreen>
+            </vg-controls>
+        
+            <video #media [vgMedia]="media" [src]="currentItem.src" id="singleVideo" preload="auto" crossorigin>
+            </video>
+        </vg-player>
+    </div>
+    
+    <!--<div class="submenu">
+      <div class="anterior">
+        <div class="arrow-left">
+          <img src="assets/caret-left.svg" alt="">
+        </div>
+        <div class="anterior-info">
+          <p>Anterior</p>
+          <img src="assets/play-circle.svg" alt="">
+          <label>2. Fracciones propias y números mixtos</label>
+        </div>
+      </div>
+      <div class="siguiente">
+        <div class="arrow-right">
+          <img src="assets/caret-right.svg" alt="">
+        </div>
+        <div class="siguiente-info">
+          <p>Siguiente</p>
+          <img src="assets/check-square.svg" alt="">
+          <label>4. Quizz: Fracciones propias e impropias.</label>
+        </div>
+      </div>
+    </div>-->
+    <div class="maestro-info">
+      <p>Tu maestro</p>
+      <p>Jesús Galindo</p>
+      <p>Me apasiona la enseñanza e impartir mi conocimiento. Tengo 15 años impartiendo cursos de matemáticas y he visto como alumnos han mejorado significativamente su comprensión de las matemáticas, lo cuál me hace muy feliz y me motiva a continuar con mi trabajo.</p>
+    </div>
+    <div class="video-info">
+      <div class="tags">
+        <div>
+          <p>ARITMETICA</p>
+        </div>
+        <div>
+          <p>SECUNDARIA</p>
+        </div>
+        <div>
+          <p>INTERMEDIO</p>
+        </div>
+      </div>
+      <p>3. Conversión de Fracciones Impropias a Números Mixtos</p>
+      <p>En esta lección aprenderás:</p>
+      <ul>
+        <li>Qué es una fracción impropia</li>
+        <li>Qué es un número mixto</li>
+        <li>Cómo hacer la conversión de fracción impropia</li>
+      </ul>
+      <p>Sobre esta lección: <br><br>En muchas ocasiones, la sola representación fraccionaria de una cantidad no nos da una idea de lo que poseemos.  Por ejemplo, si sabemos que tenemos 3/4 de pizza es fácil visualizar una pizza dividida en cuatro partes iguales, e imaginar que tenemos tres de ellas.  Sin embargo, si nos dicen que tenemos 19/7, ya no es tan fácil.  Estas situaciones se presentan cuando tenemos una fracción impropia.</p>
+    </div>
+    <div class="comunidad-info">
+      <p>Comunidad</p>
+      <p>¿Tienes dudas?</p>
+      <p>Si tienes alguna duda sobre esta lección, acude a la sección de comunidad donde podrás encontrar dudas y respuestas relacionadas a esta lección.</p>
+      <span>
+        <a href="#">Ir a comunidad</a>
+      </span>
+    </div>
+    <div id='playlist'>
+      <ul>
+        <li *ngFor="let item of playlist; let $index = index" (click)="onClickPlaylistItem(item, $index)" [class.selected]="item === currentItem">
+            {{ item.title }}
+        </li>
+      </ul>
+    </div>
+    
+</div>
